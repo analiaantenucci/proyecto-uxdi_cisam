@@ -1,0 +1,56 @@
+
+h1,
+h2,
+h3,
+nav.site-header a {
+	font-family: 'Fredoka One', cursive;
+}
+
+nav.site-header{
+	background: #ffee00;
+	padding: 0!important;
+}
+
+
+nav.site-header a{
+	color: #222;
+	text-transform: uppercase;
+	padding: 1em!important;
+	border-bottom: 3px solid #ffee00;
+}
+
+nav.site-header a:hover{
+    color: white;
+    background: #222;
+    text-decoration: none;
+	border-bottom: 3px solid #222;
+}
+
+nav.site-header a.active{
+	border-bottom: 3px solid #222;
+}
+
+nav.site-header a.active:hover{
+	color:  #222;
+	background: none;
+}
+
+.btn {
+	background: #222;
+	color: white;
+	border: 0 none;
+	font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+footer {
+	border-top: 3px solid #ccc;
+}
+
+.homepage footer{
+	border: 0 none;
+}
