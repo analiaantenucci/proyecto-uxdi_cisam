@@ -6,8 +6,31 @@ nav.site-header a {
 	font-family: 'Fredoka One', cursive;
 }
 
+h2,
+.coral {
+	color: #f55e61;
+}
+
+h3{
+	font-size: 1.2em;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+#logo{
+	text-align: center;
+}
+
+.carousel{
+	background-image: url('../img/bg-home1.jpg');
+}
+
 nav.site-header{
-	background: #ffee00;
+	background: #f55e61;
 	padding: 0!important;
 }
 
@@ -15,8 +38,21 @@ nav.site-header{
 nav.site-header a{
 	color: #222;
 	text-transform: uppercase;
-	padding: 1em!important;
-	border-bottom: 3px solid #ffee00;
+	padding: 2em 1em 1em 1em!important;
+	border-bottom: 3px solid #f55e61;
+	height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	#navbarToggler{
+		width: 100%;
+	}
+
+	nav.site-header a{
+		width: 100%;
+		padding: 0.5em!important;
+		border-bottom: 0 none!important;
+	}
 }
 
 nav.site-header a:hover{
@@ -34,6 +70,32 @@ nav.site-header a.active:hover{
 	color:  #222;
 	background: none;
 }
+
+nav.site-header #logo{
+	padding: 1em!important;
+}
+
+header.section-title,
+.carousel{
+    box-shadow: rgb(0 0 0 / 70%) 0px 120px 120px inset;
+    text-shadow: rgb(0 0 0 / 70%) 0 3px 5px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+#quienes-somos header.section-title{
+	background-image: url('../img/bg-quienessomos.jpg');
+}
+
+#proceso-ux header.section-title{
+	background-image: url('../img/bg-procesoux.jpg');
+}
+
+#contacto header.section-title{
+	background-image: url('../img/bg-contacto.jpg');
+}
+
+
 
 .btn {
 	background: #222;
@@ -54,3 +116,18 @@ footer {
 .homepage footer{
 	border: 0 none;
 }
+
+#nosotras .row{
+	text-align: center;
+}
+
+#nosotras .row img{
+	width: 100%;
+	border-radius: 150px;
+	margin-bottom: 16px;
+}
+
+#nosotras .row p{
+	font-size: 0.8em;
+}
+

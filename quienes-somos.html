@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Proyecto UXDI | Quiénes somos</title>
+    <title>Uxnicorn | Quiénes somos</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/">
 
@@ -22,19 +22,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fffe529f0c.js" crossorigin="anonymous"></script>
+
   </head>
 
-  <body>
+  <body id="quienes-somos">
 
-    <nav class="site-header sticky-top py-1">
+    <nav class="site-header sticky-top navbar navbar-expand-lg py-1">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="index.html">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+
+        <a id="logo" class="navbar-brand py-2" href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg> Uxnicorn
         </a>
-        <div>
-          <a class="py-2 d-none d-md-inline-block active">Quiénes Somos</a>
-          <a class="py-2 d-none d-md-inline-block" href="proceso-ux.html">Proceso de Diseño</a>
-          <a class="py-2 d-none d-md-inline-block" href="contacto.html">Contacto</a>
+
+        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="_collapse _navbar-collapse" id="navbarToggler">
+          <a class="nav-item nav-link py-2 d-sm-inline-block d-block active" aria-current="true">Quiénes Somos</a>
+          <a class="nav-item nav-link py-2 d-sm-inline-block d-block" href="proceso-ux.html">Proceso de Diseño</a>
+          <a class="nav-item nav-link py-2 d-sm-inline-block d-block" href="contacto.html">Contacto</a>
         </div>
       </div>
     </nav>
@@ -48,23 +58,69 @@
       </div>
     </header>
 
-    <div class="container d-flex flex-column flex-md-row">
+    <section id="nosotras" class="container d-flex flex-column flex-md-row">
       <div class="col-12 py-3">
-          <h2 class="display-5 py-3">El equipo manija</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper, justo non vulputate hendrerit, velit felis pharetra enim, non commodo libero erat eu lacus. In ultrices pellentesque erat. Phasellus tempus mauris magna, eget feugiat magna vestibulum suscipit. Nullam et augue eget dui dignissim lobortis vitae vitae felis. Duis in auctor velit. Donec facilisis suscipit molestie. Aenean volutpat mauris ac convallis lacinia. Sed a sapien tincidunt, laoreet nunc et, facilisis tellus. Ut faucibus dignissim dui, eu efficitur ex convallis at. Nullam id arcu vitae elit interdum porttitor. Proin tincidunt nisi in vulputate commodo. Nunc commodo ultricies neque et molestie.</p>
-
-          <h2 class="display-5 py-3">Les profes</h2>
-          <p>Proin a sem sem. Nullam sed enim arcu. Fusce quis lacinia quam. Suspendisse a vestibulum justo, ut dignissim magna. Proin eget turpis augue. Maecenas dapibus eget urna at vulputate. Morbi elementum tempor ex, eu fermentum sem vehicula et. Vivamus maximus eget ipsum vitae posuere. Suspendisse nunc ante, faucibus non nisl ut, finibus rhoncus nibh. Phasellus ullamcorper, sem vitae vulputate ultricies, quam orci vulputate purus, vel venenatis erat nisl suscipit odio. Aenean placerat diam vel suscipit congue. Etiam id leo laoreet, ullamcorper ex at, accumsan leo. Phasellus commodo dignissim orci, non auctor nunc vestibulum ut. Cras malesuada quis augue ac mollis.</p>
-
-          <h2 class="display-5 py-3">Colaboradores</h2>
-          <p>Proin a sem sem. Nullam sed enim arcu. Fusce quis lacinia quam. Suspendisse a vestibulum justo, ut dignissim magna. Proin eget turpis augue. Maecenas dapibus eget urna at vulputate. Morbi elementum tempor ex, eu fermentum sem vehicula et. Vivamus maximus eget ipsum vitae posuere. Suspendisse nunc ante, faucibus non nisl ut, finibus rhoncus nibh. Phasellus ullamcorper, sem vitae vulputate ultricies, quam orci vulputate purus, vel venenatis erat nisl suscipit odio. Aenean placerat diam vel suscipit congue. Etiam id leo laoreet, ullamcorper ex at, accumsan leo. Phasellus commodo dignissim orci, non auctor nunc vestibulum ut. Cras malesuada quis augue ac mollis.</p>
+        <h2 class="display-5 py-3">El equipo manija</h2>
+        <div class="row justify-content-between">
+          <div class="col-md-2 col-6">
+            <img src="img/ana.jpg" alt="Analía Antenucci">
+            <h3>Analía Antenucci</h3>
+            <p>Diseñadora UX, docente y aprendiz de guitarra.</p>
+          </div>
+          <div class="col-md-2 col-6">
+            <img src="img/agos.jpg" alt="Agostina Serodio">
+            <h3>Agostina Serodio</h3>
+            <p>Diseñadora UX, profe de matemática y acróbata.</p>
+          </div>
+          <div class="col-md-2 col-6">
+            <img src="img/belu.jpg" alt="Belén Cuello">
+            <h3>Belén Cuello</h3>
+            <p>Estudiante de Diseño Industrial y desarrolladora de videojuegos.</p>
+          </div>
+          <div class="col-md-2 col-6">
+            <img src="img/eva.jpg" alt="Eva Victoria">
+            <h3>Eva Victoria</h3>
+            <p>Diseñadora en comunicación visual y catlover.</p>
+          </div>
+          <div class="col-md-2 col-6">
+            <img src="img/romi.jpg" alt="Romina Tobeña">
+            <h3>Romina Tobeña</h3>
+            <p>Politóloga, Neurosicoeducadora, Coach y Profe de yoga y mindfulness.</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section id="profesores" class="container">
+      <h2 class="display-5 py-3">Les profes</h2>
+      <h3>Eduardo Mercovich</h3>
+      <p>Consultor independiente en investigación, diseño y desarrollo de sistemas complejos. Docente y coordinador de UXDI.</p>
+
+      <h3>Marcela Deluca</h3>
+      <p>Diseñadora Gráfica y UX. Tutora de este proyecto en la Diplomatura UXDI.</p>       
+    </section>
+
+    <section id="colaboradores" class="container py-3">
+      <h2 class="display-5 py-3">Colaboradores</h2>
+      <h3>
+        <a href="https://www.naveagora.org/" target="_blank" class="coral">
+          Nave Ágora <i class="fas fa-external-link-alt"></i>
+        </a>
+      </h3>
+      <p>Espacio-Laboratorio Cultural de creación y exploración para la innovación ciudadana y comunitaria.</p>       
+
+      <div class="py-5">
+        <h3>¿También te gustaría sumar a este proyecto?</h3>
+        <p>Necesitamos financiación para seguir sumando tecnología a nuestro proyecto, programadores, gente manija como nosotras. Si te interesa saber más, escribinos.</p>
+        <a class="btn btn-outline-secondary px-4 py-2 my-3" href="contacto.html">Sumate a colaborar</a>
+      </div>
+    </section>
 
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <strong>Uxnicorn</strong>
           <small class="d-block mb-3 text-muted">(ɔ) 2021</small>
         </div>
         <div class="col-6 col-md">
