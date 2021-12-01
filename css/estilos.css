@@ -29,6 +29,23 @@ a:hover{
 	background-image: url('../img/bg-home1.jpg');
 }
 
+#boxes{
+	padding: 1rem;
+	margin-bottom: 20px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#boxes div{
+	display: inline-block;
+	width: 49%;
+	float: left;
+}
+
+#boxes #fundacion {
+	margin-right: 2%;
+}
+
 nav.site-header{
 	background: #f55e61;
 	padding: 0!important;
@@ -52,6 +69,12 @@ nav.site-header a{
 		width: 100%;
 		padding: 0.5em!important;
 		border-bottom: 0 none!important;
+	}
+
+	#boxes div{
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10px;
 	}
 }
 
