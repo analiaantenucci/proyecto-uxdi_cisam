@@ -1,9 +1,16 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
 
 h1,
 h2,
 h3,
 nav.site-header a {
-	font-family: 'Fredoka One', cursive;
+	font-weight: bold;
+}
+
+.h1, h1 {
+    font-size: 3.2rem;
 }
 
 h2,
@@ -18,11 +25,7 @@ h3{
 a:hover{
 	color: white;
 	text-decoration: none;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
-}
-
-#logo{
-	text-align: center;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,fill .15s ease-in-out,stroke .15s ease-in-out,
 }
 
 .carousel{
@@ -67,13 +70,17 @@ nav.site-header a{
 
 	nav.site-header a{
 		width: 100%;
-		padding: 0.5em!important;
+		padding: 0.6em 3em!important;
 		border-bottom: 0 none!important;
+	}
+
+	nav.site-header a.logo{
+		padding: 0.7em 0.7em 0.7em 3em!important;
 	}
 
 	#boxes div{
 		width: 100%;
-		margin: 10px 0;
+		margin: 10px 0!important;
 	}
 }
 
@@ -93,8 +100,26 @@ nav.site-header a.active:hover{
 	background: none;
 }
 
-nav.site-header #logo{
-	padding: 1em!important;
+.logo{
+	display: flex;
+    text-transform: uppercase;
+}
+
+nav.site-header .logo{
+	padding: 0.7em!important;
+	display: flex;
+    align-items: center;
+}
+
+nav.site-header .logo span{
+	padding-left: 0.4em;
+	font-weight: 400;
+}
+
+nav.site-header .logo:hover svg,
+nav.site-header .logo:hover svg .cls-1{
+	fill: white;
+	stroke: white;
 }
 
 header.section-title,
@@ -133,6 +158,20 @@ header.section-title,
 
 footer {
 	border-top: 3px solid #ccc;
+	text-align: center;
+}
+
+footer .logo{
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logo svg{
+	margin: 0 0 5px -10px;
+}
+
+footer a:hover{
+	font-weight: 700;
 }
 
 .homepage footer{
