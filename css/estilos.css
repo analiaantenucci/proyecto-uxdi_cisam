@@ -58,7 +58,7 @@ nav.site-header{
 nav.site-header a{
 	color: #222;
 	text-transform: uppercase;
-	padding: 2em 1em 1em 1em!important;
+	padding: 2em 1em 1.5em!important;
 	border-bottom: 3px solid #f55e61;
 	height: 100%;
 }
@@ -106,13 +106,14 @@ nav.site-header a.active:hover{
 }
 
 nav.site-header .logo{
+	font-size: 1.3em;
 	padding: 0.7em!important;
 	display: flex;
     align-items: center;
 }
 
 nav.site-header .logo span{
-	padding-left: 0.4em;
+	padding: 0.2em 0 0 0.4em;
 	font-weight: 400;
 }
 
